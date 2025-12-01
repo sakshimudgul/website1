@@ -1,8 +1,16 @@
+ *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
 header{
     background-image: url("images/header.jpg");
     width:100%;
-    height:500px;
+    height:400px;
     background-size: cover;
+    border:8px solid rgb(33, 116, 33);
    
 }
 
@@ -15,7 +23,7 @@ header{
   
 }  */
 
- nav ul{
+  nav ul{
     background-color:white;
     height: 50px;
     width: 100%;
@@ -23,4 +31,71 @@ header{
     display:flex;
     justify-content: flex-end; 
     justify-content: space-around; 
+    
 }
+
+.header-text{   
+    text-align:center;
+    padding :25px;
+    font-size: 26px;
+    margin-bottom:10px;
+    line-height: 60px;
+
+}
+
+
+button{
+    padding:10px;
+    background-color:rgb(10, 137, 48) ;
+    border-radius:50px;
+    border:2px solid rgb(10, 137, 48);
+    font-size:20px;
+}
+
+button:hover{
+    background-color: rgb(34, 209, 34);
+    color:black;
+    transition: 0.5s;
+}
+
+.para1{
+     box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin:40px;
+    
+}
+
+.section2{
+    display:flex;
+    flex-direction: row;
+    font-size:20px;
+    margin: 50px;
+    /* text-wrap: wrap; */
+    /* display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr; */
+}
+
+ #text{
+    color:grey;
+    /* width:50%; */
+
+}   
+
+img{
+    height:600px;
+    width:600px;
+    border:30px solid white;
+   
+    padding:30px;
+}
+
+.content{
+    width:50%;
+    padding:30px;
+   
+     
+}
+
+
